@@ -1,0 +1,17 @@
+public class SavingsAccount extends Person{
+
+    protected double savings;
+
+    public SavingsAccount(String name, String email, double savings) {
+        super(name, email);
+        super.name = name;
+        super.email = email;
+        this.savings = savings;
+    }
+
+    double interest = (savings *.015);
+
+    public static double instancesavings(){
+        new SavingsAccount()
+    }
+}
