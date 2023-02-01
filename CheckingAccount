@@ -1,0 +1,11 @@
+public class CheckingAccount extends Person{
+
+    protected double checking;
+
+    public CheckingAccount(String name, String email, double checking) {
+        super(name, email);
+        super.name = name;
+        super.email = email;
+        this.checking = checking;
+    }
+}
